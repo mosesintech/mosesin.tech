@@ -4,6 +4,7 @@ import { Inter } from "@next/font/google";
 // import components
 import Margins from "../components/Layout/Margins";
 import Hero from "../components/FlexibleContentRows/Hero";
+import Faq from "../components/FlexibleContentRows/Faq";
 
 export default function Home() {
   return (
@@ -17,6 +18,7 @@ export default function Home() {
       <Margins size="lg">
         <main className="">
           <Hero />
+          <Faq />
         </main>
       </Margins>
     </>

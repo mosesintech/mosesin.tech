@@ -1,8 +1,8 @@
-import { ChevronRightIcon, StarIcon } from "@heroicons/react/24/solid";
+import { StarIcon } from "@heroicons/react/24/solid";
 import Image from "next/image";
 import Link from "next/link";
 
-export default function Example() {
+export default function Hero() {
   return (
     <>
       <div className="bg-white pb-8 sm:pb-12 lg:pb-12">
@@ -104,8 +104,21 @@ export default function Example() {
                   />
                 </svg>
               </div>
-              <div className="relative pl-4 sm:mx-auto sm:max-w-3xl sm:px-0 lg:max-w-none lg:h-full lg:pl-12 mr-4 sm:mr-[-10rem]">
-                {/* TODO: negative margins are broken in responsive tailwind ?? */}
+              {/* hidden sm:block hides this div so image isn't duplicated on smallest screens. */}
+              <div className="hidden sm:block relative pl-4 sm:mx-auto sm:max-w-3xl sm:px-0 lg:max-w-none lg:h-full lg:pl-12 mr-[-10rem]">
+                <Image
+                  className="w-full rounded-md shadow-xl ring-1 ring-black ring-opacity-5 border-purple-700 border-2"
+                  src="/images/Moses_Cosme.jpeg"
+                  alt="mosesin.tech"
+                  width={`200`}
+                  height={`250`}
+                  quality={100}
+                  priority={true}
+                />
+              </div>
+              {/* Because negative margins are broken in responsive tailwind the following component
+                  is necessary for the smallest screen size. */}
+              <div className="sm:hidden relative pl-4 sm:mx-auto sm:max-w-3xl sm:px-0 lg:max-w-none lg:h-full lg:pl-12 mr-4">
                 <Image
                   className="w-full rounded-md shadow-xl ring-1 ring-black ring-opacity-5 border-purple-700 border-2"
                   src="/images/Moses_Cosme.jpeg"
