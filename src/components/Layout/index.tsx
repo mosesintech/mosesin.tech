@@ -8,10 +8,10 @@ interface LayoutProps {
 export default function Layout(props: LayoutProps) {
   const { children } = props;
   return (
-    <>
+    <div className="bg-gray-50">
       <Header />
       {children}
       <Footer />
-    </>
+    </div>
   );
 }
