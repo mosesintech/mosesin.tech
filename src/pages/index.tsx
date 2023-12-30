@@ -5,6 +5,7 @@ import { Inter } from "@next/font/google";
 import Margins from "../components/Layout/Margins";
 import Hero from "../components/FlexibleContentRows/Hero";
 import Faq from "../components/FlexibleContentRows/Faq";
+import Carousel from "../components/FlexibleContentRows/Carousel";
 
 export default function Home() {
   return (
@@ -19,6 +20,7 @@ export default function Home() {
         <main className="">
           <Hero />
           <Faq />
+          <Carousel />
         </main>
       </Margins>
     </>
