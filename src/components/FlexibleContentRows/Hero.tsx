@@ -39,14 +39,16 @@ export default function Hero() {
                     </div>
                     <div className='min-w-0 flex-1 pl-5 py-1 text-sm text-gray-500 sm:py-3'>
                       <span className='font-medium text-gray-900'>
-                        Premium Web & App Development
+                        Custom Web & App Development
                       </span>
                     </div>
                   </div>
                   <p className='mt-6 text-xl text-gray-500'>
-                    Anim aute id magna aliqua ad ad non deserunt sunt. Qui irure
-                    qui lorem cupidatat commodo. Anim aute id magna aliqua ad ad
-                    non deserunt sunt. Qui irure qui lorem cupidatat commodo.
+                    Whether you need a highly complicated custom form for your
+                    marketing website, are looking to build some software to
+                    increase revenue and make your life easier, or want a simple
+                    website made by an industry professional, you&lsquo;ve come
+                    to the right place.
                   </p>
                 </div>
                 <div className='mt-6 flex'>
@@ -54,7 +56,7 @@ export default function Hero() {
                     href='/about'
                     className='w-1/2 flex items-center justify-center bg-gradient-to-r from-purple-600 to-indigo-600 bg-origin-border px-4 py-3 border border-transparent text-base font-medium rounded-md shadow-sm text-white hover:from-purple-700 hover:to-indigo-700'
                   >
-                    Hire Me
+                    Hire Moses
                   </Link>
                   <Link
                     href='/about'
