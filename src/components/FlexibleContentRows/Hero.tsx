@@ -12,43 +12,64 @@ export default function Hero() {
               <div className='mb-20'>
                 <div className='sm:max-w-xl'>
                   <h1 className='text-4xl mb-2 font-extrabold text-gray-900 tracking-tight sm:text-5xl'>
-                    Websites & Apps for Small Businesses
+                    Hello! I&rsquo;m Moses Maximino Cosme II
                   </h1>
                   <div className='inline-flex items-center divide-x divide-gray-300'>
-                    <div className='flex-shrink-0 flex pr-5'>
-                      <StarIcon
-                        className='h-5 w-5 text-yellow-400'
-                        aria-hidden='true'
-                      />
-                      <StarIcon
-                        className='h-5 w-5 text-yellow-400'
-                        aria-hidden='true'
-                      />
-                      <StarIcon
-                        className='h-5 w-5 text-yellow-400'
-                        aria-hidden='true'
-                      />
-                      <StarIcon
-                        className='h-5 w-5 text-yellow-400'
-                        aria-hidden='true'
-                      />
-                      <StarIcon
-                        className='h-5 w-5 text-yellow-400'
-                        aria-hidden='true'
-                      />
-                    </div>
-                    <div className='min-w-0 flex-1 pl-5 py-1 text-sm text-gray-500 sm:py-3'>
+                    <div className='min-w-0 flex-1 py-1 text-sm text-gray-500 sm:py-3'>
                       <span className='font-medium text-gray-900'>
-                        Custom Web & App Development
+                        Independent Contractor &#8226; Software Engineer &#8226;
+                        UI Designer &#8226; Video Game Developer
                       </span>
                     </div>
                   </div>
                   <p className='mt-6 text-xl text-gray-500'>
-                    Whether you need a highly complicated custom form for your
-                    marketing website, are looking to build some software to
-                    increase revenue and make your life easier, or want a simple
-                    website made by an industry professional, you&lsquo;ve come
-                    to the right place.
+                    Born in California, raised in Texas, and living in Alabama.
+                    I&lsquo;m a&nbsp;
+                    <Link
+                      href='https://github.com/mosesintech'
+                      target='_blank'
+                      className='text-purple-700'
+                    >
+                      full stack software engineer
+                    </Link>
+                    &nbsp;with 5 years of experience in JavaScript, TypeScript,
+                    React, Node, and PHP. On and off for the last decade,
+                    I&#39;ve worked as a&nbsp;
+                    <Link
+                      href='https://totalityworks.com'
+                      target='_blank'
+                      className='text-purple-700'
+                    >
+                      freelance SEO and web designer
+                    </Link>
+                    , using mostly Figma for design and WordPress for websites.
+                    In my free time, I&rsquo;m a hobbyist&nbsp;
+                    <Link
+                      href='https://totality.games'
+                      target='_blank'
+                      className='text-purple-700'
+                    >
+                      game developer
+                    </Link>
+                    , working on a cross platform cozy cat librarian game called
+                    Catalog Chronicles. I mentor aspiring and junior developers
+                    through Discord (
+                    <Link
+                      href='https://discord.gg/2GxvYzz9Fa'
+                      target='_blank'
+                      className='text-purple-700'
+                    >
+                      everyone&apos;s invited!
+                    </Link>
+                    ). But the most important thing about me is that I am&nbsp;
+                    <Link
+                      href='https://stjohncassian.org/'
+                      target='_blank'
+                      className='text-purple-700'
+                    >
+                      a Church janitor.
+                    </Link>
+                    &nbsp;
                   </p>
                 </div>
                 <div className='mt-6 flex'>
@@ -110,10 +131,10 @@ export default function Hero() {
               <div className='hidden sm:block relative pl-4 sm:mx-auto sm:max-w-3xl sm:px-0 lg:max-w-none lg:h-full lg:pl-12 mr-[-10rem]'>
                 <Image
                   className='w-full rounded-md shadow-xl ring-1 ring-black ring-opacity-5 border-purple-700 border-2'
-                  src='/images/Moses_Cosme.jpeg'
+                  src='/images/moses-cosme-software-engineer.jpg'
                   alt='mosesin.tech'
-                  width={`200`}
-                  height={`250`}
+                  width={`650`}
+                  height={`800`}
                   quality={100}
                   priority={true}
                 />
@@ -123,10 +144,10 @@ export default function Hero() {
               <div className='sm:hidden relative pl-4 sm:mx-auto sm:max-w-3xl sm:px-0 lg:max-w-none lg:h-full lg:pl-12 mr-4'>
                 <Image
                   className='w-full rounded-md shadow-xl ring-1 ring-black ring-opacity-5 border-purple-700 border-2'
-                  src='/images/Moses_Cosme.jpeg'
+                  src='/images/moses-cosme-software-engineer.jpg'
                   alt='mosesin.tech'
-                  width={`200`}
-                  height={`250`}
+                  width={`650`}
+                  height={`800`}
                   quality={100}
                   priority={true}
                 />
